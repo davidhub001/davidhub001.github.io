@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,102 +6,124 @@
     <meta name="description" content="David Andriamasinavalona - Développeur Informatique">
     <meta name="keywords" content="David Andriamasinavalona, informatique, développeur, programmation, web">
     <meta name="author" content="Votre Nom">
-    <title>David Andriamasinavalona - Développeur Informatique</title>
-
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem;
-        }
-
-        section {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
-        }
-
-        h1{
-            color: #fff;
-        }
-        h2 {
-            color: #333;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-
-        @media (max-width: 600px) {
-            section {
-                padding: 10px;
-            }
-        }
-
-        /* Animation simple */
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-
-        section {
-            animation: fadeIn 1s ease-in-out;
-        }
-    </style>
+    <title>David Andriamasinavalona - Développeur Informatique</title> 
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <!-- <img src="logo.png" alt="" width="100"> -->
-
         <h1>David Andriamasinavalona</h1>
         <p>Développeur Informatique</p>
     </header>
 
     <section>
-        <h2>À propos de moi</h2>
-        <p>Bienvenue sur mon site web ! Je suis David Andriamasinavalona, un passionné d'informatique et un développeur expérimenté.</p>
-        <!-- Ajoutez ici plus d'informations sur votre parcours, vos compétences, etc. -->
+        <h2>À Propos de Moi</h2>
+        <p>Bienvenue sur mon site web ! Je suis David Andriamasinavalona, un passionné d'informatique et un développeur expérimenté âgé de 27 ans. Récemment diplômé d'une Licence en Informatique avec une spécialisation en génie logiciel et base de données, j'ai acquis 5 ans d'expérience dans un poste de développeur. Ma passion pour le développement informatique me pousse à mettre mes compétences au service de votre projet.</p>
     </section>
 
-    <section>
+    <section id="education">
+        <h2>Formation Académique</h2>
+    
+        <div class="education-item">
+            <h3>Licence en Informatique - Génie Logiciel</h3>
+            <p>Université : <b>CENTRE NATIONAL DE TÉLÉ-ENSEIGNEMENT DE MADAGASCAR (CNTEMAD)</b></p>
+            <p>Année d'obtention : <b>2016-2017</b></p>
+        </div>
+    </section>
+    
+    <section id="competence">
         <h2>Mes Compétences</h2>
-        <ul>
-            <li>Développement Web</li>
-            <li>Programmation informatique</li>
-            <!-- Ajoutez ici plus de compétences -->
-        </ul>
+        <div>
+            <div class="category">
+                <div><h3>Langages</h3></div>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS/Sass</li>
+                    <li>JS</li>
+                    <li>PHP</li>
+                    <li>SQL</li>
+                    <li>Java</li>
+                </ul>
+            </div>
+        
+            <div class="category">
+                <div><h3>Frameworks</h3></div>
+                <ul>
+                    <li>Symfony</li>
+                    <li>Codeigniter</li>
+                    <li>Bootstrap</li>
+                    <li>JQuery</li>
+                </ul>
+            </div>
+        
+            <div class="category">
+                <div><h3>CMS</h3></div>
+                <ul>
+                    <li>WordPress</li>
+                    <li>SPIP & THELIA</li>
+                </ul>
+            </div>
+        
+            <div class="category">
+                <div><h3>Base de Données</h3></div>
+                <ul>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+        
+            <div class="category">
+                <div><h3>Gestion de Versionnement</h3></div>
+                <ul>
+                    <li>Git</li>
+                </ul>
+            </div>
+        
+            <div class="category">
+                <div><h3>Containers</h3></div>
+                <ul>
+                    <li>Docker</li>
+                </ul>
+            </div>
+        </div>
     </section>
+    <section id="experience">
+        <h2>Expérience Professionnelle</h2>
+    
+        <div class="experience-item">
+            <h3>Développeur Informatique - CENTIC-MADA</h3>
+            <p>2017-2020</p>
+            <ul>
+                <li>Création de projets avec Symfony3 et Codeigniter</li>
+                <li>Conception de bases de données</li>
+            </ul>
+        </div>
+    
+        <div class="experience-item">
+            <h3>Développeur Web - MIANJAIKA Communication</h3>
+            <p>2018-2019</p>
+            <ul>
+                <li>Création de sites avec WordPress</li>
+                <li>Maintenance de sites web</li>
+                <li>Intégration responsive design</li>
+                <li>Référencement naturel (SEO)</li>
+            </ul>
+        </div>
+    
+        <div class="experience-item">
+            <h3>Développeur PHP - PROPITECH</h3>
+            <p>2021</p>
+            <ul>
+                <li>Développement de plugins avec SPIP & THELIA</li>
+                <li>Création de plugins pour Chrome</li>
+            </ul>
+        </div>
+    </section>
+        
 
-    <section>
+    <section id="contact">
         <h2>Contact</h2>
-        <p>Vous pouvez me contacter à l'adresse email : <a href="mailto:andrisondavidmail@gmal.com">andrisondavidmail@gmal.com</a></p>
+        <p>Vous pouvez me contacter à l'adresse email : <a href="mailto:andrisondavidmail@gmail.com">andrisondavidmail@gmail.com</a></p>
+        <p>Téléphone : +261 34 60 131 54</p>
     </section>
 
     <footer>
