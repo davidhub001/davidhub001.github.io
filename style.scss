@@ -13,8 +13,8 @@ header {
 }
 
 section {
-    max-width: 800px;
-    margin: 0 auto;
+    // max-width: 800px;
+    // margin: 0 auto;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -117,4 +117,30 @@ footer {
     border: 1px solid #ccc;
     padding: 1em;
     margin-bottom: 2em;
+}
+.titre{
+    text-align: center;
+}
+.content{
+    display: flex;
+    margin: 0 auto;
+    max-width: 96%;
+    .aside{
+        flex: 30%;
+        max-width: 23%;
+        margin: 0 10px;
+        padding: 20px;
+        background-color: #fff;
+        margin-bottom: 20px;
+    }
+    .section{
+        flex: 70%;
+        max-width: 77%;
+        margin: 0 10px;
+    }
+}
+.mon-image{
+    border-radius: 194px;
+    filter: drop-shadow(0px 0px 6px black);
+    width: 99%;
 }
