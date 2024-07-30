@@ -1,136 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="David Andriamasinavalona - Développeur Informatique">
-    <meta name="keywords" content="David Andriamasinavalona, informatique, développeur, programmation, web">
-    <meta name="author" content="Votre Nom">
-    <title>David Andriamasinavalona - Développeur Informatique</title> 
+    <title>CV Développeur</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .titre {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .contact-gauche img {
+            width: 20px;
+            margin-right: 10px;
+        }
+        .skills {
+            margin-top: 20px;
+        }
+        .skills span {
+            display: block;
+            margin-top: 10px;
+        }
+        .progress {
+            height: 20px;
+        }
+        .content-section {
+            margin-bottom: 20px;
+        }
+        .list-unstyled {
+            padding-left: 0;
+        }
+        ul{
+            padding: 20px;
+            list-style: square;
+        }
+    </style>
 </head>
 <body>
-
-    <header>
-        <h1>David Andriamasinavalona</h1>
-        <p>Développeur Informatique</p>
-    </header>
-    <div class="content">
-        <div class="aside">
+<div class="container">
+    <div class="row mb-3">
+        <div class="col-md-4  text-center">
             <img src="me.png" class="mon-image">
         </div>
-        <div class="section">
-            <section class="titre">
-                <h2>Codez l'avenir, transformez des idées en réalité.</h2>
-            </section>
-        
-            <section id="education">
-                <h2>Formation Académique</h2>
-            
-                <div class="education-item">
-                    <h3>Licence en Informatique - Génie Logiciel</h3>
-                    <p>Université : <b>CENTRE NATIONAL DE TÉLÉ-ENSEIGNEMENT DE MADAGASCAR (CNTEMAD)</b></p>
-                    <p>Année d'obtention : <b>2016-2017</b></p>
-                </div>
-            </section>
-            
-            <section id="competence">
-                <h2>Mes Compétences</h2>
-                <div>
-                    <div class="category">
-                        <div><h3>Langages</h3></div>
-                        <ul>
-                            <li>HTML</li>
-                            <li>Scss</li>
-                            <li>JS</li>
-                            <li>PHP</li>
-                            <li>SQL</li>
-                            <li>Java</li>
-                        </ul>
-                    </div>
-                
-                    <div class="category">
-                        <div><h3>Frameworks</h3></div>
-                        <ul>
-                            <li>Symfony</li>
-                            <li>Codeigniter</li>
-                            <li>Bootstrap</li>
-                        </ul>
-                    </div>
-                
-                    <div class="category">
-                        <div><h3>CMS</h3></div>
-                        <ul>
-                            <li>WordPress</li>
-                            <li>SPIP & THELIA</li>
-                        </ul>
-                    </div>
-                
-                    <div class="category">
-                        <div><h3>Base de Données</h3></div>
-                        <ul>
-                            <li>MySQL</li>
-                        </ul>
-                    </div>
-                
-                    <div class="category">
-                        <div><h3>Gestion de Versionnement</h3></div>
-                        <ul>
-                            <li>Git</li>
-                        </ul>
-                    </div>
-                
-                    <div class="category">
-                        <div><h3>Containers</h3></div>
-                        <ul>
-                            <li>Docker</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section id="experience">
-                <h2>Expérience Professionnelle</h2>
-            
-                <div class="experience-item">
-                    <h3>Stagiaire développeur Informatique - CENTIC-MADA</h3>
-                    <p>2017-2018</p>
-                </div>
-            
-                <div class="experience-item">
-                    <h3>Développeur Web - MIANJAIKA Communication</h3>
-                    <p>2018-2019</p>
-                </div>
-            
-                <div class="experience-item">
-                    <h3>Développeur PHP - PROPITECH</h3>
-                    <p>2021</p>
-                </div>
-            </section>
-            <section id="Autre experience">
-                <h2>Autres expérience</h2>
-                <ul>
-                    <li>Maintenance et création de site web avec WordPress et Spip&Thelia.</li>
-                    <li>Développement plugin avec WordPress et Spip&Thelia.</li>
-                    <li>Création projet avec Symfony3 et Codeigniter</li>
-                    <li>Développement extension chrome.</li>
-                    <li>Référencement naturel SEO.</li>
-                    <li>Conception base de donnés.</li>
-                </ul>
-            </section>
-                
-        
-            <section id="contact">
-                <h2>Contact</h2>
-                <p>Vous pouvez me contacter à l'adresse email : <a href="mailto:andrisondavidmail@gmail.com">andrisondavidmail@gmail.com</a></p>
-                <p>Téléphone : +261 34 60 131 54</p>
-            </section>
-        
+        <div class="col-md-8 text-center align-content-center">
+            <h2>David ANDRIAMASINAVALONA</h2>
         </div>
     </div>
-    
-    <footer>
-        <p>&copy; 2024 David Andriamasinavalona - Développeur Informatique</p>
-    </footer>
+    <div class="row">
+        <div class="col-md-4 contact-gauche">
+            <h5>CONTACT</h5>
+            <div class="mb-3">
+                <img src="logo/email.png" alt="Email">
+                <a href="mailto:andrisondavidmail@gmail.com">andrisondavidmail@gmail.com</a>
+            </div>
+            <div class="mb-3">
+                <img src="logo/phone.png" alt="Phone">
+                <a href="tel:+261346013154">+261 34 60 131 54</a> / 
+                <a href="tel:+261339065671">+261 33 90 656 71</a>
+            </div>
+            <div class="mb-5">
+                <img src="logo/adresse.png" alt="Adresse">
+                <a href="#">Lot 181 A Marobiby Itaosy</a>
+            </div>
 
+            <div class="skills">
+                <h5>Compétences Techniques</h5>
+                <span>PHP</span>
+                <div class="progress mb-2">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                </div>
+                <span>HTML</span>
+                <div class="progress mb-2">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                </div>
+                <span>SCSS</span>
+                <div class="progress mb-2">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                </div>
+                <span>SQL</span>
+                <div class="progress mb-2">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                </div>
+                <span>C#</span>
+                <div class="progress mb-2">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                </div>
+                <span>Java</span>
+                <div class="progress mb-2">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                </div>
+                <span>WordPress</span>
+                <div class="progress mb-2">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                </div>
+                <span>Symfony</span>
+                <div class="progress mb-2">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                </div>
+                <span>CodeIgniter</span>
+                <div class="progress mb-2">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                </div>
+                <span>Git</span>
+                <div class="progress mb-2">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                </div>
+                <span>Docker</span>
+                <div class="progress mb-2">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                </div>
+                <span>API REST</span>
+                <div class="progress mb-2">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8 contenu">
+            <div class="content-section">
+                <h5>Diplômes</h5>
+                <div class="list-group-item list-group-item-action list-group-item-primary">2016-2017: Licence en Informatique - Base de données et Génie Logiciel (CNTEMAD)</div>
+            </div>
+
+            <div class="content-section">
+                <h5>Expériences</h5>
+                <div class="card p-3 m-3">
+                    <strong>Développeur PHP</strong><br>
+                    2021 à ce jour: PROPITECH, Antananarivo<br>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-action list-group-item-primary">Développement et maintenance de solutions web en utilisant SPIP / THELIA.</li>
+                        <li class="list-group-item list-group-item-action list-group-item-primary">Optimisation des performances des sites web.</li>
+                    </ul>
+                </div>
+                <div class="card p-3 m-3">
+                    <strong>Développeur Informatique</strong><br>
+                    2017-2020 : CENTIC-MADA, Antananarivo<br>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-action list-group-item-primary">Implémentation de fonctionnalités utilisant des API REST pour l'intégration de services tiers.</li>
+                        <li class="list-group-item list-group-item-action list-group-item-primary">Création de plugins personnalisés pour répondre aux besoins spécifiques des clients.</li>
+                    </ul>
+                </div>
+                <div class="card p-3 m-3">
+                    <strong>Développeur Web</strong><br>
+                    2018-2019 : MIANJAIKA Communication, Antananarivo<br>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-action list-group-item-primary">Développement de sites web en utilisant WordPress et d'autres CMS.</li>
+                        <li class="list-group-item list-group-item-action list-group-item-primary">Optimisation SEO pour améliorer le référencement naturel des sites clients.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h5>Compétences Informatiques</h5>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-action list-group-item-primary">Programmation Orientée Objet (POO)</li>
+                    <li class="list-group-item list-group-item-action list-group-item-primary">Conception et gestion de bases de données avec la méthode Merise</li>
+                    <li class="list-group-item list-group-item-action list-group-item-primary">Maîtrise de l'environnement Linux, Shell, Bash, cmd</li>
+                    <li class="list-group-item list-group-item-action list-group-item-primary">Développement de plugins WordPress</li>
+                    <li class="list-group-item list-group-item-action list-group-item-primary">Développement de plugins SPIP / THELIA</li>
+                    <li class="list-group-item list-group-item-action list-group-item-primary">Création de plugins pour Google Chrome</li>
+                    <li class="list-group-item list-group-item-action list-group-item-primary">Utilisation des API REST, SEO, WebRTC, Web Scraping</li>
+                    <li class="list-group-item list-group-item-action list-group-item-primary">Maintenance matérielle et logicielle informatique</li>
+                    <li class="list-group-item list-group-item-action list-group-item-primary">Développement avec Symfony et CodeIgniter</li>
+                    <li class="list-group-item list-group-item-action list-group-item-primary">Gestion de versions avec Git</li>
+                    <li class="list-group-item list-group-item-action list-group-item-primary">Conteneurisation et orchestration avec Docker</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
